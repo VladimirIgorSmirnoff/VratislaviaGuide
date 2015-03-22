@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		436C60CD1ABF349A000262BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C60CC1ABF349A000262BE /* main.m */; };
+		436C60D01ABF349A000262BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C60CF1ABF349A000262BE /* AppDelegate.m */; };
+		436C60D31ABF349A000262BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C60D21ABF349A000262BE /* ViewController.m */; };
+		436C60D61ABF349A000262BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436C60D41ABF349A000262BE /* Main.storyboard */; };
+		436C60D81ABF349A000262BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436C60D71ABF349A000262BE /* Images.xcassets */; };
+		436C60DB1ABF349A000262BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436C60D91ABF349A000262BE /* LaunchScreen.xib */; };
+		436C60E71ABF349A000262BE /* VratislaviaGuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C60E61ABF349A000262BE /* VratislaviaGuideTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		436C60E11ABF349A000262BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 436C60BF1ABF349A000262BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 436C60C61ABF349A000262BE;
+			remoteInfo = VratislaviaGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		436C60C71ABF349A000262BE /* VratislaviaGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VratislaviaGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		436C60CB1ABF349A000262BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436C60CC1ABF349A000262BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		436C60CE1ABF349A000262BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		436C60CF1ABF349A000262BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		436C60D11ABF349A000262BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		436C60D21ABF349A000262BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		436C60D51ABF349A000262BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		436C60D71ABF349A000262BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		436C60DA1ABF349A000262BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		436C60E01ABF349A000262BE /* VratislaviaGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VratislaviaGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		436C60E51ABF349A000262BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436C60E61ABF349A000262BE /* VratislaviaGuideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VratislaviaGuideTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		436C60C41ABF349A000262BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436C60DD1ABF349A000262BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		436C60BE1ABF349A000262BE = {
+			isa = PBXGroup;
+			children = (
+				436C60C91ABF349A000262BE /* VratislaviaGuide */,
+				436C60E31ABF349A000262BE /* VratislaviaGuideTests */,
+				436C60C81ABF349A000262BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		436C60C81ABF349A000262BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				436C60C71ABF349A000262BE /* VratislaviaGuide.app */,
+				436C60E01ABF349A000262BE /* VratislaviaGuideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		436C60C91ABF349A000262BE /* VratislaviaGuide */ = {
+			isa = PBXGroup;
+			children = (
+				436C60CE1ABF349A000262BE /* AppDelegate.h */,
+				436C60CF1ABF349A000262BE /* AppDelegate.m */,
+				436C60D11ABF349A000262BE /* ViewController.h */,
+				436C60D21ABF349A000262BE /* ViewController.m */,
+				436C60D41ABF349A000262BE /* Main.storyboard */,
+				436C60D71ABF349A000262BE /* Images.xcassets */,
+				436C60D91ABF349A000262BE /* LaunchScreen.xib */,
+				436C60CA1ABF349A000262BE /* Supporting Files */,
+			);
+			path = VratislaviaGuide;
+			sourceTree = "<group>";
+		};
+		436C60CA1ABF349A000262BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				436C60CB1ABF349A000262BE /* Info.plist */,
+				436C60CC1ABF349A000262BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		436C60E31ABF349A000262BE /* VratislaviaGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				436C60E61ABF349A000262BE /* VratislaviaGuideTests.m */,
+				436C60E41ABF349A000262BE /* Supporting Files */,
+			);
+			path = VratislaviaGuideTests;
+			sourceTree = "<group>";
+		};
+		436C60E41ABF349A000262BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				436C60E51ABF349A000262BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		436C60C61ABF349A000262BE /* VratislaviaGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436C60EA1ABF349A000262BE /* Build configuration list for PBXNativeTarget "VratislaviaGuide" */;
+			buildPhases = (
+				436C60C31ABF349A000262BE /* Sources */,
+				436C60C41ABF349A000262BE /* Frameworks */,
+				436C60C51ABF349A000262BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VratislaviaGuide;
+			productName = VratislaviaGuide;
+			productReference = 436C60C71ABF349A000262BE /* VratislaviaGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		436C60DF1ABF349A000262BE /* VratislaviaGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436C60ED1ABF349A000262BE /* Build configuration list for PBXNativeTarget "VratislaviaGuideTests" */;
+			buildPhases = (
+				436C60DC1ABF349A000262BE /* Sources */,
+				436C60DD1ABF349A000262BE /* Frameworks */,
+				436C60DE1ABF349A000262BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				436C60E21ABF349A000262BE /* PBXTargetDependency */,
+			);
+			name = VratislaviaGuideTests;
+			productName = VratislaviaGuideTests;
+			productReference = 436C60E01ABF349A000262BE /* VratislaviaGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		436C60BF1ABF349A000262BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Waldemar Walczak";
+				TargetAttributes = {
+					436C60C61ABF349A000262BE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					436C60DF1ABF349A000262BE = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 436C60C61ABF349A000262BE;
+					};
+				};
+			};
+			buildConfigurationList = 436C60C21ABF349A000262BE /* Build configuration list for PBXProject "VratislaviaGuide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 436C60BE1ABF349A000262BE;
+			productRefGroup = 436C60C81ABF349A000262BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				436C60C61ABF349A000262BE /* VratislaviaGuide */,
+				436C60DF1ABF349A000262BE /* VratislaviaGuideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		436C60C51ABF349A000262BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436C60D61ABF349A000262BE /* Main.storyboard in Resources */,
+				436C60DB1ABF349A000262BE /* LaunchScreen.xib in Resources */,
+				436C60D81ABF349A000262BE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436C60DE1ABF349A000262BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		436C60C31ABF349A000262BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436C60D31ABF349A000262BE /* ViewController.m in Sources */,
+				436C60D01ABF349A000262BE /* AppDelegate.m in Sources */,
+				436C60CD1ABF349A000262BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436C60DC1ABF349A000262BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436C60E71ABF349A000262BE /* VratislaviaGuideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		436C60E21ABF349A000262BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 436C60C61ABF349A000262BE /* VratislaviaGuide */;
+			targetProxy = 436C60E11ABF349A000262BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		436C60D41ABF349A000262BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				436C60D51ABF349A000262BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		436C60D91ABF349A000262BE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				436C60DA1ABF349A000262BE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		436C60E81ABF349A000262BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		436C60E91ABF349A000262BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		436C60EB1ABF349A000262BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VratislaviaGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		436C60EC1ABF349A000262BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VratislaviaGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		436C60EE1ABF349A000262BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VratislaviaGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VratislaviaGuide.app/VratislaviaGuide";
+			};
+			name = Debug;
+		};
+		436C60EF1ABF349A000262BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VratislaviaGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VratislaviaGuide.app/VratislaviaGuide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		436C60C21ABF349A000262BE /* Build configuration list for PBXProject "VratislaviaGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436C60E81ABF349A000262BE /* Debug */,
+				436C60E91ABF349A000262BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436C60EA1ABF349A000262BE /* Build configuration list for PBXNativeTarget "VratislaviaGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436C60EB1ABF349A000262BE /* Debug */,
+				436C60EC1ABF349A000262BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		436C60ED1ABF349A000262BE /* Build configuration list for PBXNativeTarget "VratislaviaGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436C60EE1ABF349A000262BE /* Debug */,
+				436C60EF1ABF349A000262BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 436C60BF1ABF349A000262BE /* Project object */;
+}
