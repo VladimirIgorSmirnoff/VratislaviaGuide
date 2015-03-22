@@ -14,6 +14,7 @@
 		436C60D81ABF349A000262BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436C60D71ABF349A000262BE /* Images.xcassets */; };
 		436C60DB1ABF349A000262BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436C60D91ABF349A000262BE /* LaunchScreen.xib */; };
 		436C60E71ABF349A000262BE /* VratislaviaGuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C60E61ABF349A000262BE /* VratislaviaGuideTests.m */; };
+		F0AA7D2B95A4B89148C7BB07 /* libPods-VratislaviaGuide.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A623D9F1B06A42D902263010 /* libPods-VratislaviaGuide.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3081534F2B3CFE4465A0E2D8 /* Pods-VratislaviaGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VratislaviaGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VratislaviaGuide/Pods-VratislaviaGuide.debug.xcconfig"; sourceTree = "<group>"; };
 		436C60C71ABF349A000262BE /* VratislaviaGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VratislaviaGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436C60CB1ABF349A000262BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436C60CC1ABF349A000262BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		436C60E01ABF349A000262BE /* VratislaviaGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VratislaviaGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436C60E51ABF349A000262BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436C60E61ABF349A000262BE /* VratislaviaGuideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VratislaviaGuideTests.m; sourceTree = "<group>"; };
+		A623D9F1B06A42D902263010 /* libPods-VratislaviaGuide.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VratislaviaGuide.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E645240A3B4F03F1904970 /* Pods-VratislaviaGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VratislaviaGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-VratislaviaGuide/Pods-VratislaviaGuide.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0AA7D2B95A4B89148C7BB07 /* libPods-VratislaviaGuide.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +65,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35D12BCB72434C970C618826 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A623D9F1B06A42D902263010 /* libPods-VratislaviaGuide.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		436C60BE1ABF349A000262BE = {
 			isa = PBXGroup;
 			children = (
 				436C60C91ABF349A000262BE /* VratislaviaGuide */,
 				436C60E31ABF349A000262BE /* VratislaviaGuideTests */,
 				436C60C81ABF349A000262BE /* Products */,
+				6679106A47A6D6290F03516F /* Pods */,
+				35D12BCB72434C970C618826 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +134,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6679106A47A6D6290F03516F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3081534F2B3CFE4465A0E2D8 /* Pods-VratislaviaGuide.debug.xcconfig */,
+				C8E645240A3B4F03F1904970 /* Pods-VratislaviaGuide.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 436C60EA1ABF349A000262BE /* Build configuration list for PBXNativeTarget "VratislaviaGuide" */;
 			buildPhases = (
+				E834E95797BCD2B3D7EF18EC /* Check Pods Manifest.lock */,
 				436C60C31ABF349A000262BE /* Sources */,
 				436C60C41ABF349A000262BE /* Frameworks */,
 				436C60C51ABF349A000262BE /* Resources */,
+				AB4F00EF0F5B6B14861DD92F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +239,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB4F00EF0F5B6B14861DD92F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VratislaviaGuide/Pods-VratislaviaGuide-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E834E95797BCD2B3D7EF18EC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		436C60C31ABF349A000262BE /* Sources */ = {
@@ -343,6 +402,7 @@
 		};
 		436C60EB1ABF349A000262BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3081534F2B3CFE4465A0E2D8 /* Pods-VratislaviaGuide.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VratislaviaGuide/Info.plist;
@@ -353,6 +413,7 @@
 		};
 		436C60EC1ABF349A000262BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E645240A3B4F03F1904970 /* Pods-VratislaviaGuide.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VratislaviaGuide/Info.plist;
@@ -414,6 +475,7 @@
 				436C60EC1ABF349A000262BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		436C60ED1ABF349A000262BE /* Build configuration list for PBXNativeTarget "VratislaviaGuideTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +484,7 @@
 				436C60EF1ABF349A000262BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

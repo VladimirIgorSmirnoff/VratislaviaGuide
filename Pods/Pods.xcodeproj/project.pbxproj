@@ -1,0 +1,1105 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041092AE521D3F39214504AD /* GMSUISettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D25ADABDA2D0829C77B8031 /* GMSUISettings.h */; };
+		057CA58DA1A9285610C6A30C /* GMSIndoorLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 326E276A294529A3B69EB418 /* GMSIndoorLevel.h */; };
+		06765E69B9D2237EE74EA493 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03991072B1901665E359C1B7 /* Foundation.framework */; };
+		0CA681B40FA23D3510F9C9EA /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB91B664B2202D9EDD7424E /* UIAlertView+AFNetworking.h */; };
+		0D6142705D254227EF30732C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B67190B3962FB71A21E6B9E2 /* AFHTTPSessionManager.m */; };
+		0D744BE4AAB4DE4153E1F2A3 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F524846FE156022AEB57441A /* AFNetworkActivityIndicatorManager.m */; };
+		0F15840AFA7E99FE666C9270 /* GMSIndoorBuilding.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A75BD014F1A54971A54A9F8 /* GMSIndoorBuilding.h */; };
+		11B8A635499074C4F332BE5D /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE60943D25CFE12C4709B7C /* AFHTTPSessionManager.h */; };
+		14FC72C72AEA19C3967DD56F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63098F00091C0F04398B0AAA /* ImageIO.framework */; };
+		180B74865594B4F36E767BDE /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 814BDF3C47465A2208679996 /* AFURLRequestSerialization.h */; };
+		197F0DAABD681121E52EB77C /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B32294011A03B4D3E9D87B /* UIButton+AFNetworking.m */; };
+		1CF3BA667BE92A6201237C2F /* GMSURLTileLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A6F0C9F593FA6792FAF902 /* GMSURLTileLayer.h */; };
+		1E2E0BC5EC30F8FB17087061 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5D52B4C9E3F515826B0EA6 /* MobileCoreServices.framework */; };
+		23EFA1AC2D89711C2495DAD7 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E074B23D07FE3167EE0E99C /* AFHTTPRequestOperation.m */; };
+		26873F710CCEDF515E7D9B2B /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ADD53C07956EA5D4F886CE /* AFHTTPRequestOperation.h */; };
+		26D2FC34E7C8DF23B0E1EBC2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424B0E9F6BE6F934A329DA4C /* SystemConfiguration.framework */; };
+		27F166DAD3D2020B086C5B78 /* GMSPolyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E15DD51EF3722D49F294D6 /* GMSPolyline.h */; };
+		29924B6DEFD48E395EB71168 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE7C4988D6B0C71FB81027 /* AFURLResponseSerialization.m */; };
+		2ECD9979ADEB69400EFDBE57 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25010E077B21DF17E2256C67 /* AFURLConnectionOperation.m */; };
+		3047210060CC5BF04AA9BD64 /* GMSMapView+Animation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BFCB18A1C20C750ACF0684C /* GMSMapView+Animation.h */; };
+		3431899177D0D225357CD271 /* GMSMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1A4A09186F34C5165D8714 /* GMSMapView.h */; };
+		3522D009ABD23DC1035B954A /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC98066AEAB12589FC11EEC3 /* AFHTTPRequestOperationManager.m */; };
+		353EB1EC770DD930455715AC /* GMSOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EE4D9B4E56F395F19DCB19 /* GMSOrientation.h */; };
+		37FCEA4819514CFA49E3CB3F /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1511085A142730FB7F6BC803 /* AFURLRequestSerialization.m */; };
+		3B9FAF75893A6641DC8630C5 /* GMSProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C557EA9AC2ACFBCA1747088 /* GMSProjection.h */; };
+		3D99319B5AD2D5D4F9BD2374 /* GMSCALayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 72391E6321DBE506A09F030A /* GMSCALayer.h */; };
+		3E46BEB8562559674BA56F5F /* Pods-VratislaviaGuide-RESideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BE99FC7FAF7471C0CFC621 /* Pods-VratislaviaGuide-RESideMenu-dummy.m */; };
+		415BC585185AF3F3531FE406 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B3372D2F1E77552B8E6C2D /* UIRefreshControl+AFNetworking.h */; };
+		429D34108A456D3F5E4825C9 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BB44EAE58400639B38E3ED /* UIProgressView+AFNetworking.h */; };
+		43E8D3974F8753B42D8133AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03991072B1901665E359C1B7 /* Foundation.framework */; };
+		47333D54198DEDED58186AAB /* GMSPanoramaLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7C4D5B03ECC1D1C188BF39 /* GMSPanoramaLayer.h */; };
+		4922EA02615BA79C211F1A46 /* GMSCameraPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = 439DA628E69E97C3BCE78BDE /* GMSCameraPosition.h */; };
+		492BC8D9352F8590E8F55F55 /* GMSPanoramaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 47313EEC1C6537EF9E8C255D /* GMSPanoramaView.h */; };
+		4ADFE53D298CD393D84AA59E /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 010019F85F7714722AAB6ECB /* RECommonFunctions.m */; };
+		4D0FA61D52DEF44346C3F0E5 /* Pods-VratislaviaGuide-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3724FA2FEFAC0064FB57FE3 /* Pods-VratislaviaGuide-AFNetworking-dummy.m */; };
+		4E8A4DB6BD8166BAE8987749 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF4F04A4FA1F5AA75E2CDF6 /* UIWebView+AFNetworking.m */; };
+		55498C0BCDDF7BF3FC2DF8EF /* GMSPanoramaLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A70A27D2F62E6B561E123CF /* GMSPanoramaLink.h */; };
+		567FFF2030775B1A50838554 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424B0E9F6BE6F934A329DA4C /* SystemConfiguration.framework */; };
+		57A1ABA1492120837EF0E4BF /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB2D4E97B1334B06D90A466 /* AFNetworking.h */; };
+		5E4D2E6E1B8F3395A8CE5D78 /* GMSPath.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD424E711118387864FF7C6 /* GMSPath.h */; };
+		5EF282C77C5B90CCC157D421 /* GMSPanorama.h in Headers */ = {isa = PBXBuildFile; fileRef = 0107FC637F86A83C3C50B66A /* GMSPanorama.h */; };
+		604A5E0A354A5EF9C8D131A1 /* GMSMutablePath.h in Headers */ = {isa = PBXBuildFile; fileRef = 70ABF0D96B3C66412BC40060 /* GMSMutablePath.h */; };
+		6AC21F91BF5F068D3F2034FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03991072B1901665E359C1B7 /* Foundation.framework */; };
+		6CA38242120B69E0F0D34E70 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9E5915209998F62F7CB396 /* AFNetworkReachabilityManager.m */; };
+		6CB3293D2B0CA3DA3A06AB94 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EE7A5C41DE6F08BAE613DF /* UIRefreshControl+AFNetworking.m */; };
+		711A4B3DE61EC4D1298817EE /* UIViewController+RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 2378762B2A8E2FA3C7086454 /* UIViewController+RESideMenu.h */; };
+		713CFB9387D1AA4F0407BC93 /* GMSPanoramaCameraUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4042D43D990E873F175C2CA3 /* GMSPanoramaCameraUpdate.h */; };
+		714335B7B436DD5603F44E88 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D70C0BF66846F1D491B40B0 /* UIProgressView+AFNetworking.m */; };
+		716F4950D0E4EDEB6732863C /* GMSPanoramaService.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E398775E510E9816EE7168 /* GMSPanoramaService.h */; };
+		719C48A5358419052DFF0D89 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ACF591D89ECB42AEF3FA83E /* UIKit+AFNetworking.h */; };
+		72B09F74F682491D7F2FAB34 /* GMSMarkerLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 732C75B0A3149646D3575793 /* GMSMarkerLayer.h */; };
+		7639453D1C044C348F5F2378 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95561A2C604F8D6749B39FD /* CoreData.framework */; };
+		781BBEAA87E54379B8AE6959 /* GMSAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 9360E6037F1FAF250810DFFB /* GMSAddress.h */; };
+		7870898BFEA005EC6409A567 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A2FCFC88101AABA6C13DF793 /* UIActivityIndicatorView+AFNetworking.h */; };
+		7A9C75E547332F026DB567B8 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90651AD148A0383084EEED84 /* GoogleMaps.framework */; };
+		7BB313D2C9C99026DBC7BCE0 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C9C90A0F50A04F2310D3F /* AFNetworkActivityIndicatorManager.h */; };
+		7D93CABF688C7A439E56514B /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D1C70945D070A1F944F4DE /* UIImageView+AFNetworking.m */; };
+		820E68E10529452C96EC0030 /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B5C4743BD03F7879E2EE17 /* RECommonFunctions.h */; };
+		8AE00192E85DAF30DDCEDAE3 /* Pods-VratislaviaGuide-Google-Maps-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E8EFDFCCD69981D877C40 /* Pods-VratislaviaGuide-Google-Maps-iOS-SDK-dummy.m */; };
+		8EB9EF7EF6E8702B3E50A9F7 /* GMSGeometryUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D133F80F45DA7510FA0190F2 /* GMSGeometryUtils.h */; };
+		8F9CAD4E172AD22999D66BB0 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFA8E96813147635C37CC13 /* RESideMenu.m */; };
+		90293A94BF93B78CFF63144E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8911BE2426646AEF8E13070 /* QuartzCore.framework */; };
+		921D09C90E313E46EBCA5CD1 /* GMSTileLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BC999403D75F637D3F8262D9 /* GMSTileLayer.h */; };
+		931D71E6D03A24FF47215EF6 /* GMSServices.h in Headers */ = {isa = PBXBuildFile; fileRef = BF44F60CEA08045E1F980120 /* GMSServices.h */; };
+		958AE28824D33BB1F3D5B91F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B61224D793FB369B358B0BE /* CoreText.framework */; };
+		9A8767974FEE51D0E29BB5EF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C4D51CFAC5FCB992F1DA13 /* GLKit.framework */; };
+		9BC7595D47EF224156E0AD08 /* GMSCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5F3907F2E6C23D51D9F45E /* GMSCircle.h */; };
+		9DA51FBF308516A7E2021ABA /* GoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = E57871E219D09DF563254E51 /* GoogleMaps.h */; };
+		9E5BE4B96C810AC8D7E27DC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB90ABD938890D99459E6DB2 /* CoreGraphics.framework */; };
+		9EB979B3FEC8D5356AB9AA37 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5559EE5A0D22E23AF096C974 /* UIActivityIndicatorView+AFNetworking.m */; };
+		9F9875ED12B1321FAA6A51DE /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0631BA618F1FBCA6D9508C27 /* AFSecurityPolicy.h */; };
+		A05D0445CAECBAAD1F5FE9F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB90ABD938890D99459E6DB2 /* CoreGraphics.framework */; };
+		A45C7054234E0DECF0D63D19 /* GMSGroundOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = A798CFDA414CC041AFD2EBC1 /* GMSGroundOverlay.h */; };
+		A56A0320B9CEE679A483A83A /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6C7CA49BE1F57197457431 /* AFURLSessionManager.h */; };
+		A5ED4C1507C87B64037C549E /* GMSSyncTileLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F68FFCD5C07E9CC5CCD6AE /* GMSSyncTileLayer.h */; };
+		A890AE9001CF20C139DBBC7C /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CABDF90893E8E85289CC9E /* AFURLSessionManager.m */; };
+		B22CC885E773CACD6F0723FE /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B92F9CA4270DDEEECEBD2317 /* UIImageView+AFNetworking.h */; };
+		B50BD8C23C219FA5D8BB35F9 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D3CECA6AFCD0BC64FF5393 /* UIAlertView+AFNetworking.m */; };
+		B7F1A1652A69BE713DB36AE9 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF8461ECF14BF0DC9DDA41B /* AFURLConnectionOperation.h */; };
+		B8707888B6C09E08AA527863 /* RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = F99C66C76A51BEA45F83592F /* RESideMenu.h */; };
+		BA687873F5D702D6DF8C356C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDAC5190194774BB1294618 /* Security.framework */; };
+		C234C3018B7847C6BA7F88B0 /* GMSPanoramaCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 2043D8C48D0805934318E048 /* GMSPanoramaCamera.h */; };
+		C681F2EF7BF582766102BB6D /* GMSCameraUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = CB93189F61FB7845900DCE6F /* GMSCameraUpdate.h */; };
+		C71C3711BA564585C4414F9B /* GMSCoordinateBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = F3885B24AAF60219FCC12992 /* GMSCoordinateBounds.h */; };
+		C816AE7928AE4CF2AC9CE25B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03991072B1901665E359C1B7 /* Foundation.framework */; };
+		CD296CE68F0A5BB5D198A338 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C34AC024971DC464CD2317CC /* AFURLResponseSerialization.h */; };
+		D16A08DF74EDDC11EC0A8C63 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E60CD5463778D9833CE5AF0B /* UIButton+AFNetworking.h */; };
+		D60776B2E9244D6EFCF5462C /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 626BB6DE082CE432F05EE37E /* UIViewController+RESideMenu.m */; };
+		D78F62BAB875A55C3E2D9859 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FC51CB9E85A3FA8E37C29FE7 /* AFHTTPRequestOperationManager.h */; };
+		DB25D1D235F7463924758A7A /* Pods-VratislaviaGuide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A213ED0551E57ED49503E76 /* Pods-VratislaviaGuide-dummy.m */; };
+		DB7691FC4EE6756365CC67BD /* GMSGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F989D2F5410F9A0AA81AEE /* GMSGeocoder.h */; };
+		DD7F04C8416D53CB49A30E5A /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E5A7C53718124C9116C188 /* AFSecurityPolicy.m */; };
+		DDAEF07306E23AD4435B861C /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A14BE4D3D86C16D0B08580BE /* UIWebView+AFNetworking.h */; };
+		E09645F9AE87E7A79F2DC7B8 /* GMSOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1445D641756B32C9B0BD11 /* GMSOverlay.h */; };
+		E115F3ABF4D7FEB859DD5353 /* GMSMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FEAB8565C62868AB7506FED /* GMSMarker.h */; };
+		E3D29318EF7936FCF7106466 /* GMSIndoorDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = E9C8578A58E5632E4E35CE6C /* GMSIndoorDisplay.h */; };
+		E8E18325821D589FD335C87D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3E58811ED3386AF42E08AE /* OpenGLES.framework */; };
+		EC5B21E1ECEB34E8D51680E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8911BE2426646AEF8E13070 /* QuartzCore.framework */; };
+		EDA6AFC8C1A10CC95EED5253 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A901D570299AFFBA22187248 /* CoreLocation.framework */; };
+		F0FCEAD89842B150A9EDE80F /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A45F28E389F7DE6B51229C3 /* AFNetworkReachabilityManager.h */; };
+		FAC90600F52730EF0B7FD165 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE0B663E1775E2226DEEE3F /* AVFoundation.framework */; };
+		FBB182FC885C726FBA96424E /* GMSPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE6EEE52BE25CCC9D318CF1 /* GMSPolygon.h */; };
+		FF66248E8722FF0F7B90DA46 /* GMSMapLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 653FEF6897CF4DBE649649DC /* GMSMapLayer.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A4DC67B6CD0A9CA6733DC40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0F08A468FED05D6C9D886B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E30F00BACA192BC73D140A1A;
+			remoteInfo = "Pods-VratislaviaGuide-RESideMenu";
+		};
+		577E5108A3D05B5530D05E3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0F08A468FED05D6C9D886B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6C100F82DE51ABFFA25706C;
+			remoteInfo = "Pods-VratislaviaGuide-AFNetworking";
+		};
+		9F4E5BA2D05DF18A7483300F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0F08A468FED05D6C9D886B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876BA1B0C5E30F7C1E7805D7;
+			remoteInfo = "Pods-VratislaviaGuide-Google-Maps-iOS-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010019F85F7714722AAB6ECB /* RECommonFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RECommonFunctions.m; path = RESideMenu/RECommonFunctions.m; sourceTree = "<group>"; };
+		0107FC637F86A83C3C50B66A /* GMSPanorama.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPanorama.h; path = GoogleMaps.framework/Versions/A/Headers/GMSPanorama.h; sourceTree = "<group>"; };
+		013807F0058BCEA086157CA3 /* Pods-VratislaviaGuide-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VratislaviaGuide-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		02EAE509B863FEA7EB376ED3 /* Pods-VratislaviaGuide-Google-Maps-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VratislaviaGuide-Google-Maps-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		0324B6F5FA9EBBB4E16864F6 /* Pods-VratislaviaGuide-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VratislaviaGuide-environment.h"; sourceTree = "<group>"; };
+		03991072B1901665E359C1B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		03C91C4D85B37A66C9205E3D /* Pods-VratislaviaGuide-RESideMenu-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VratislaviaGuide-RESideMenu-Private.xcconfig"; sourceTree = "<group>"; };
+		0631BA618F1FBCA6D9508C27 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		08BE99FC7FAF7471C0CFC621 /* Pods-VratislaviaGuide-RESideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VratislaviaGuide-RESideMenu-dummy.m"; sourceTree = "<group>"; };
+		0BFCB18A1C20C750ACF0684C /* GMSMapView+Animation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMSMapView+Animation.h"; path = "GoogleMaps.framework/Versions/A/Headers/GMSMapView+Animation.h"; sourceTree = "<group>"; };
+		0D5D52B4C9E3F515826B0EA6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		0E03FD948493D3253207ABD5 /* Pods-VratislaviaGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VratislaviaGuide.release.xcconfig"; sourceTree = "<group>"; };
+		1511085A142730FB7F6BC803 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		15ADD53C07956EA5D4F886CE /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		1ACF591D89ECB42AEF3FA83E /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		1E074B23D07FE3167EE0E99C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		2043D8C48D0805934318E048 /* GMSPanoramaCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPanoramaCamera.h; path = GoogleMaps.framework/Versions/A/Headers/GMSPanoramaCamera.h; sourceTree = "<group>"; };
+		22B32294011A03B4D3E9D87B /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		2378762B2A8E2FA3C7086454 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RESideMenu.h"; path = "RESideMenu/UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		25010E077B21DF17E2256C67 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		25079C754E663FE1EEDD8D0F /* libPods-VratislaviaGuide.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VratislaviaGuide.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F68A6CDF362A681E5F24A9 /* Pods-VratislaviaGuide-RESideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VratislaviaGuide-RESideMenu-prefix.pch"; sourceTree = "<group>"; };
+		2A70A27D2F62E6B561E123CF /* GMSPanoramaLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPanoramaLink.h; path = GoogleMaps.framework/Versions/A/Headers/GMSPanoramaLink.h; sourceTree = "<group>"; };
+		2AB2D4E97B1334B06D90A466 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		326E276A294529A3B69EB418 /* GMSIndoorLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSIndoorLevel.h; path = GoogleMaps.framework/Versions/A/Headers/GMSIndoorLevel.h; sourceTree = "<group>"; };
+		33CABDF90893E8E85289CC9E /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		3B5EF9256321E00F4B7C83A3 /* Pods-VratislaviaGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VratislaviaGuide.debug.xcconfig"; sourceTree = "<group>"; };
+		3C3E58811ED3386AF42E08AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		4042D43D990E873F175C2CA3 /* GMSPanoramaCameraUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPanoramaCameraUpdate.h; path = GoogleMaps.framework/Versions/A/Headers/GMSPanoramaCameraUpdate.h; sourceTree = "<group>"; };
+		424B0E9F6BE6F934A329DA4C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		439DA628E69E97C3BCE78BDE /* GMSCameraPosition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSCameraPosition.h; path = GoogleMaps.framework/Versions/A/Headers/GMSCameraPosition.h; sourceTree = "<group>"; };
+		44EE4D9B4E56F395F19DCB19 /* GMSOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSOrientation.h; path = GoogleMaps.framework/Versions/A/Headers/GMSOrientation.h; sourceTree = "<group>"; };
+		47313EEC1C6537EF9E8C255D /* GMSPanoramaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPanoramaView.h; path = GoogleMaps.framework/Versions/A/Headers/GMSPanoramaView.h; sourceTree = "<group>"; };
+		47F68FFCD5C07E9CC5CCD6AE /* GMSSyncTileLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSSyncTileLayer.h; path = GoogleMaps.framework/Versions/A/Headers/GMSSyncTileLayer.h; sourceTree = "<group>"; };
+		49D1C70945D070A1F944F4DE /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		4A016E9CA5C558EC5697E72E /* Pods-VratislaviaGuide-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VratislaviaGuide-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		50E398775E510E9816EE7168 /* GMSPanoramaService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPanoramaService.h; path = GoogleMaps.framework/Versions/A/Headers/GMSPanoramaService.h; sourceTree = "<group>"; };
+		5559EE5A0D22E23AF096C974 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		5A1A4A09186F34C5165D8714 /* GMSMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSMapView.h; path = GoogleMaps.framework/Versions/A/Headers/GMSMapView.h; sourceTree = "<group>"; };
+		5B61224D793FB369B358B0BE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		5CCE7C4988D6B0C71FB81027 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		5DD7231B30FA0034A7745910 /* Pods-VratislaviaGuide-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VratislaviaGuide-acknowledgements.markdown"; sourceTree = "<group>"; };
+		626BB6DE082CE432F05EE37E /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RESideMenu.m"; path = "RESideMenu/UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		63098F00091C0F04398B0AAA /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		643E8EFDFCCD69981D877C40 /* Pods-VratislaviaGuide-Google-Maps-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VratislaviaGuide-Google-Maps-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
+		653FEF6897CF4DBE649649DC /* GMSMapLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSMapLayer.h; path = GoogleMaps.framework/Versions/A/Headers/GMSMapLayer.h; sourceTree = "<group>"; };
+		6A75BD014F1A54971A54A9F8 /* GMSIndoorBuilding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSIndoorBuilding.h; path = GoogleMaps.framework/Versions/A/Headers/GMSIndoorBuilding.h; sourceTree = "<group>"; };
+		6C85D88BC39D8381B57A3400 /* libPods-VratislaviaGuide-Google-Maps-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VratislaviaGuide-Google-Maps-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D25ADABDA2D0829C77B8031 /* GMSUISettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSUISettings.h; path = GoogleMaps.framework/Versions/A/Headers/GMSUISettings.h; sourceTree = "<group>"; };
+		70ABF0D96B3C66412BC40060 /* GMSMutablePath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSMutablePath.h; path = GoogleMaps.framework/Versions/A/Headers/GMSMutablePath.h; sourceTree = "<group>"; };
+		72391E6321DBE506A09F030A /* GMSCALayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSCALayer.h; path = GoogleMaps.framework/Versions/A/Headers/GMSCALayer.h; sourceTree = "<group>"; };
+		732C75B0A3149646D3575793 /* GMSMarkerLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSMarkerLayer.h; path = GoogleMaps.framework/Versions/A/Headers/GMSMarkerLayer.h; sourceTree = "<group>"; };
+		76E15DD51EF3722D49F294D6 /* GMSPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPolyline.h; path = GoogleMaps.framework/Versions/A/Headers/GMSPolyline.h; sourceTree = "<group>"; };
+		7A213ED0551E57ED49503E76 /* Pods-VratislaviaGuide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VratislaviaGuide-dummy.m"; sourceTree = "<group>"; };
+		7B5F3907F2E6C23D51D9F45E /* GMSCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSCircle.h; path = GoogleMaps.framework/Versions/A/Headers/GMSCircle.h; sourceTree = "<group>"; };
+		7C557EA9AC2ACFBCA1747088 /* GMSProjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSProjection.h; path = GoogleMaps.framework/Versions/A/Headers/GMSProjection.h; sourceTree = "<group>"; };
+		7EDAC5190194774BB1294618 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		7EF4F04A4FA1F5AA75E2CDF6 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		7EF8461ECF14BF0DC9DDA41B /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		80A6F0C9F593FA6792FAF902 /* GMSURLTileLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSURLTileLayer.h; path = GoogleMaps.framework/Versions/A/Headers/GMSURLTileLayer.h; sourceTree = "<group>"; };
+		814BDF3C47465A2208679996 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		8370AA7640825F4C6C96144A /* Pods-VratislaviaGuide-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VratislaviaGuide-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		838CCEFE50496B746D9F435E /* Pods-VratislaviaGuide-RESideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VratislaviaGuide-RESideMenu.xcconfig"; sourceTree = "<group>"; };
+		84F989D2F5410F9A0AA81AEE /* GMSGeocoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSGeocoder.h; path = GoogleMaps.framework/Versions/A/Headers/GMSGeocoder.h; sourceTree = "<group>"; };
+		86C4D51CFAC5FCB992F1DA13 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		891C9C90A0F50A04F2310D3F /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		8AB91B664B2202D9EDD7424E /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		8CAD16821C776A9ED75934B1 /* Pods-VratislaviaGuide-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VratislaviaGuide-resources.sh"; sourceTree = "<group>"; };
+		8D70C0BF66846F1D491B40B0 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		8EBAD53F49E23D8E470AB001 /* Pods-VratislaviaGuide-Google-Maps-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VratislaviaGuide-Google-Maps-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
+		8FEAB8565C62868AB7506FED /* GMSMarker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSMarker.h; path = GoogleMaps.framework/Versions/A/Headers/GMSMarker.h; sourceTree = "<group>"; };
+		90651AD148A0383084EEED84 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/GoogleMaps.framework; sourceTree = DEVELOPER_DIR; };
+		91B5C4743BD03F7879E2EE17 /* RECommonFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RECommonFunctions.h; path = RESideMenu/RECommonFunctions.h; sourceTree = "<group>"; };
+		9336E2BFF2AF68729FF2FA31 /* Pods-VratislaviaGuide-Google-Maps-iOS-SDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VratislaviaGuide-Google-Maps-iOS-SDK-Private.xcconfig"; sourceTree = "<group>"; };
+		9360E6037F1FAF250810DFFB /* GMSAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSAddress.h; path = GoogleMaps.framework/Versions/A/Headers/GMSAddress.h; sourceTree = "<group>"; };
+		93A05416DF2C49746AF2350B /* libPods-VratislaviaGuide-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VratislaviaGuide-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98EE7A5C41DE6F08BAE613DF /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		9A45F28E389F7DE6B51229C3 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		9C1445D641756B32C9B0BD11 /* GMSOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSOverlay.h; path = GoogleMaps.framework/Versions/A/Headers/GMSOverlay.h; sourceTree = "<group>"; };
+		9E6C7CA49BE1F57197457431 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		A14BE4D3D86C16D0B08580BE /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		A284473FE05A641F895B812F /* libPods-VratislaviaGuide-RESideMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VratislaviaGuide-RESideMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FCFC88101AABA6C13DF793 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		A5E5A7C53718124C9116C188 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A798CFDA414CC041AFD2EBC1 /* GMSGroundOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSGroundOverlay.h; path = GoogleMaps.framework/Versions/A/Headers/GMSGroundOverlay.h; sourceTree = "<group>"; };
+		A8911BE2426646AEF8E13070 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A901D570299AFFBA22187248 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		AAE60943D25CFE12C4709B7C /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		B67190B3962FB71A21E6B9E2 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		B92F9CA4270DDEEECEBD2317 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		B95561A2C604F8D6749B39FD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		BC999403D75F637D3F8262D9 /* GMSTileLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSTileLayer.h; path = GoogleMaps.framework/Versions/A/Headers/GMSTileLayer.h; sourceTree = "<group>"; };
+		BEE6EEE52BE25CCC9D318CF1 /* GMSPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPolygon.h; path = GoogleMaps.framework/Versions/A/Headers/GMSPolygon.h; sourceTree = "<group>"; };
+		BF44F60CEA08045E1F980120 /* GMSServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSServices.h; path = GoogleMaps.framework/Versions/A/Headers/GMSServices.h; sourceTree = "<group>"; };
+		C34AC024971DC464CD2317CC /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		C893277A172ECB1116C63E3D /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		C9BB44EAE58400639B38E3ED /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		CB93189F61FB7845900DCE6F /* GMSCameraUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSCameraUpdate.h; path = GoogleMaps.framework/Versions/A/Headers/GMSCameraUpdate.h; sourceTree = "<group>"; };
+		CCD424E711118387864FF7C6 /* GMSPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPath.h; path = GoogleMaps.framework/Versions/A/Headers/GMSPath.h; sourceTree = "<group>"; };
+		CE58410380E971A8CCA579A0 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D133F80F45DA7510FA0190F2 /* GMSGeometryUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSGeometryUtils.h; path = GoogleMaps.framework/Versions/A/Headers/GMSGeometryUtils.h; sourceTree = "<group>"; };
+		D3724FA2FEFAC0064FB57FE3 /* Pods-VratislaviaGuide-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VratislaviaGuide-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		DC98066AEAB12589FC11EEC3 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		E388D0AA6EE3F7A4E0184DD5 /* Pods-VratislaviaGuide-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VratislaviaGuide-acknowledgements.plist"; sourceTree = "<group>"; };
+		E57871E219D09DF563254E51 /* GoogleMaps.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleMaps.h; path = GoogleMaps.framework/Versions/A/Headers/GoogleMaps.h; sourceTree = "<group>"; };
+		E5D3CECA6AFCD0BC64FF5393 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		E60CD5463778D9833CE5AF0B /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		E9C8578A58E5632E4E35CE6C /* GMSIndoorDisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSIndoorDisplay.h; path = GoogleMaps.framework/Versions/A/Headers/GMSIndoorDisplay.h; sourceTree = "<group>"; };
+		EDE0B663E1775E2226DEEE3F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		EE9E5915209998F62F7CB396 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		F3885B24AAF60219FCC12992 /* GMSCoordinateBounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSCoordinateBounds.h; path = GoogleMaps.framework/Versions/A/Headers/GMSCoordinateBounds.h; sourceTree = "<group>"; };
+		F524846FE156022AEB57441A /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		F99C66C76A51BEA45F83592F /* RESideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RESideMenu.h; path = RESideMenu/RESideMenu.h; sourceTree = "<group>"; };
+		F9B3372D2F1E77552B8E6C2D /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		FAFA8E96813147635C37CC13 /* RESideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RESideMenu.m; path = RESideMenu/RESideMenu.m; sourceTree = "<group>"; };
+		FB90ABD938890D99459E6DB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		FC51CB9E85A3FA8E37C29FE7 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		FF7C4D5B03ECC1D1C188BF39 /* GMSPanoramaLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPanoramaLayer.h; path = GoogleMaps.framework/Versions/A/Headers/GMSPanoramaLayer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0868A4985337EF1E7B4F94BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5BE4B96C810AC8D7E27DC7 /* CoreGraphics.framework in Frameworks */,
+				43E8D3974F8753B42D8133AF /* Foundation.framework in Frameworks */,
+				1E2E0BC5EC30F8FB17087061 /* MobileCoreServices.framework in Frameworks */,
+				BA687873F5D702D6DF8C356C /* Security.framework in Frameworks */,
+				567FFF2030775B1A50838554 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEA47507F9351C5F73C1CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC90600F52730EF0B7FD165 /* AVFoundation.framework in Frameworks */,
+				7639453D1C044C348F5F2378 /* CoreData.framework in Frameworks */,
+				A05D0445CAECBAAD1F5FE9F7 /* CoreGraphics.framework in Frameworks */,
+				EDA6AFC8C1A10CC95EED5253 /* CoreLocation.framework in Frameworks */,
+				958AE28824D33BB1F3D5B91F /* CoreText.framework in Frameworks */,
+				06765E69B9D2237EE74EA493 /* Foundation.framework in Frameworks */,
+				9A8767974FEE51D0E29BB5EF /* GLKit.framework in Frameworks */,
+				7A9C75E547332F026DB567B8 /* GoogleMaps.framework in Frameworks */,
+				14FC72C72AEA19C3967DD56F /* ImageIO.framework in Frameworks */,
+				E8E18325821D589FD335C87D /* OpenGLES.framework in Frameworks */,
+				90293A94BF93B78CFF63144E /* QuartzCore.framework in Frameworks */,
+				26D2FC34E7C8DF23B0E1EBC2 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983E447966075D0EF2AA87C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C816AE7928AE4CF2AC9CE25B /* Foundation.framework in Frameworks */,
+				EC5B21E1ECEB34E8D51680E5 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB8F2F64BDB8415F704B46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC21F91BF5F068D3F2034FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0056F9523D30BA5FD2B16A94 /* Pods-VratislaviaGuide */ = {
+			isa = PBXGroup;
+			children = (
+				5DD7231B30FA0034A7745910 /* Pods-VratislaviaGuide-acknowledgements.markdown */,
+				E388D0AA6EE3F7A4E0184DD5 /* Pods-VratislaviaGuide-acknowledgements.plist */,
+				7A213ED0551E57ED49503E76 /* Pods-VratislaviaGuide-dummy.m */,
+				0324B6F5FA9EBBB4E16864F6 /* Pods-VratislaviaGuide-environment.h */,
+				8CAD16821C776A9ED75934B1 /* Pods-VratislaviaGuide-resources.sh */,
+				3B5EF9256321E00F4B7C83A3 /* Pods-VratislaviaGuide.debug.xcconfig */,
+				0E03FD948493D3253207ABD5 /* Pods-VratislaviaGuide.release.xcconfig */,
+			);
+			name = "Pods-VratislaviaGuide";
+			path = "Target Support Files/Pods-VratislaviaGuide";
+			sourceTree = "<group>";
+		};
+		0221BE75DEAA5E52C3FA1EB6 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				0631BA618F1FBCA6D9508C27 /* AFSecurityPolicy.h */,
+				A5E5A7C53718124C9116C188 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		040D974CB08004AB9C655464 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8370AA7640825F4C6C96144A /* Pods-VratislaviaGuide-AFNetworking.xcconfig */,
+				4A016E9CA5C558EC5697E72E /* Pods-VratislaviaGuide-AFNetworking-Private.xcconfig */,
+				D3724FA2FEFAC0064FB57FE3 /* Pods-VratislaviaGuide-AFNetworking-dummy.m */,
+				013807F0058BCEA086157CA3 /* Pods-VratislaviaGuide-AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-VratislaviaGuide-AFNetworking";
+			sourceTree = "<group>";
+		};
+		1006D007F57CA0CAE2EF2852 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25079C754E663FE1EEDD8D0F /* libPods-VratislaviaGuide.a */,
+				93A05416DF2C49746AF2350B /* libPods-VratislaviaGuide-AFNetworking.a */,
+				6C85D88BC39D8381B57A3400 /* libPods-VratislaviaGuide-Google-Maps-iOS-SDK.a */,
+				A284473FE05A641F895B812F /* libPods-VratislaviaGuide-RESideMenu.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14A40858522980EBE0897069 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				2AB2D4E97B1334B06D90A466 /* AFNetworking.h */,
+				D030C8B4103782B0B792B5FE /* NSURLConnection */,
+				8656E72CC0A7698B1934BF76 /* NSURLSession */,
+				27B5FA922CE080450252CB34 /* Reachability */,
+				0221BE75DEAA5E52C3FA1EB6 /* Security */,
+				8A50E671EAA4A852EA363E1B /* Serialization */,
+				040D974CB08004AB9C655464 /* Support Files */,
+				6736BFDF1639FB2DB12B23E2 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		27B5FA922CE080450252CB34 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				9A45F28E389F7DE6B51229C3 /* AFNetworkReachabilityManager.h */,
+				EE9E5915209998F62F7CB396 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		2F830769352B2CED45477226 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				91B5C4743BD03F7879E2EE17 /* RECommonFunctions.h */,
+				010019F85F7714722AAB6ECB /* RECommonFunctions.m */,
+				F99C66C76A51BEA45F83592F /* RESideMenu.h */,
+				FAFA8E96813147635C37CC13 /* RESideMenu.m */,
+				2378762B2A8E2FA3C7086454 /* UIViewController+RESideMenu.h */,
+				626BB6DE082CE432F05EE37E /* UIViewController+RESideMenu.m */,
+				EDE71DCC5C246FC719D6CD05 /* Support Files */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		6736BFDF1639FB2DB12B23E2 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				891C9C90A0F50A04F2310D3F /* AFNetworkActivityIndicatorManager.h */,
+				F524846FE156022AEB57441A /* AFNetworkActivityIndicatorManager.m */,
+				A2FCFC88101AABA6C13DF793 /* UIActivityIndicatorView+AFNetworking.h */,
+				5559EE5A0D22E23AF096C974 /* UIActivityIndicatorView+AFNetworking.m */,
+				8AB91B664B2202D9EDD7424E /* UIAlertView+AFNetworking.h */,
+				E5D3CECA6AFCD0BC64FF5393 /* UIAlertView+AFNetworking.m */,
+				E60CD5463778D9833CE5AF0B /* UIButton+AFNetworking.h */,
+				22B32294011A03B4D3E9D87B /* UIButton+AFNetworking.m */,
+				B92F9CA4270DDEEECEBD2317 /* UIImageView+AFNetworking.h */,
+				49D1C70945D070A1F944F4DE /* UIImageView+AFNetworking.m */,
+				1ACF591D89ECB42AEF3FA83E /* UIKit+AFNetworking.h */,
+				C9BB44EAE58400639B38E3ED /* UIProgressView+AFNetworking.h */,
+				8D70C0BF66846F1D491B40B0 /* UIProgressView+AFNetworking.m */,
+				F9B3372D2F1E77552B8E6C2D /* UIRefreshControl+AFNetworking.h */,
+				98EE7A5C41DE6F08BAE613DF /* UIRefreshControl+AFNetworking.m */,
+				A14BE4D3D86C16D0B08580BE /* UIWebView+AFNetworking.h */,
+				7EF4F04A4FA1F5AA75E2CDF6 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		674A28C404EB3272705B80BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0056F9523D30BA5FD2B16A94 /* Pods-VratislaviaGuide */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8656E72CC0A7698B1934BF76 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				AAE60943D25CFE12C4709B7C /* AFHTTPSessionManager.h */,
+				B67190B3962FB71A21E6B9E2 /* AFHTTPSessionManager.m */,
+				9E6C7CA49BE1F57197457431 /* AFURLSessionManager.h */,
+				33CABDF90893E8E85289CC9E /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		8A50E671EAA4A852EA363E1B /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				814BDF3C47465A2208679996 /* AFURLRequestSerialization.h */,
+				1511085A142730FB7F6BC803 /* AFURLRequestSerialization.m */,
+				C34AC024971DC464CD2317CC /* AFURLResponseSerialization.h */,
+				5CCE7C4988D6B0C71FB81027 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		9AE1F3CC7FFED0754C01D827 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE8E5187849554AA9E09E9B3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A640F1A54FB9C507942F9CF6 = {
+			isa = PBXGroup;
+			children = (
+				CE58410380E971A8CCA579A0 /* Podfile */,
+				9AE1F3CC7FFED0754C01D827 /* Frameworks */,
+				CFA1EF468F305BE92A0F387A /* Pods */,
+				1006D007F57CA0CAE2EF2852 /* Products */,
+				674A28C404EB3272705B80BF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AF6F6D0437C1E8702542E893 /* Google-Maps-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				9360E6037F1FAF250810DFFB /* GMSAddress.h */,
+				72391E6321DBE506A09F030A /* GMSCALayer.h */,
+				439DA628E69E97C3BCE78BDE /* GMSCameraPosition.h */,
+				CB93189F61FB7845900DCE6F /* GMSCameraUpdate.h */,
+				7B5F3907F2E6C23D51D9F45E /* GMSCircle.h */,
+				F3885B24AAF60219FCC12992 /* GMSCoordinateBounds.h */,
+				84F989D2F5410F9A0AA81AEE /* GMSGeocoder.h */,
+				D133F80F45DA7510FA0190F2 /* GMSGeometryUtils.h */,
+				A798CFDA414CC041AFD2EBC1 /* GMSGroundOverlay.h */,
+				6A75BD014F1A54971A54A9F8 /* GMSIndoorBuilding.h */,
+				E9C8578A58E5632E4E35CE6C /* GMSIndoorDisplay.h */,
+				326E276A294529A3B69EB418 /* GMSIndoorLevel.h */,
+				653FEF6897CF4DBE649649DC /* GMSMapLayer.h */,
+				5A1A4A09186F34C5165D8714 /* GMSMapView.h */,
+				0BFCB18A1C20C750ACF0684C /* GMSMapView+Animation.h */,
+				8FEAB8565C62868AB7506FED /* GMSMarker.h */,
+				732C75B0A3149646D3575793 /* GMSMarkerLayer.h */,
+				70ABF0D96B3C66412BC40060 /* GMSMutablePath.h */,
+				44EE4D9B4E56F395F19DCB19 /* GMSOrientation.h */,
+				9C1445D641756B32C9B0BD11 /* GMSOverlay.h */,
+				0107FC637F86A83C3C50B66A /* GMSPanorama.h */,
+				2043D8C48D0805934318E048 /* GMSPanoramaCamera.h */,
+				4042D43D990E873F175C2CA3 /* GMSPanoramaCameraUpdate.h */,
+				FF7C4D5B03ECC1D1C188BF39 /* GMSPanoramaLayer.h */,
+				2A70A27D2F62E6B561E123CF /* GMSPanoramaLink.h */,
+				50E398775E510E9816EE7168 /* GMSPanoramaService.h */,
+				47313EEC1C6537EF9E8C255D /* GMSPanoramaView.h */,
+				CCD424E711118387864FF7C6 /* GMSPath.h */,
+				BEE6EEE52BE25CCC9D318CF1 /* GMSPolygon.h */,
+				76E15DD51EF3722D49F294D6 /* GMSPolyline.h */,
+				7C557EA9AC2ACFBCA1747088 /* GMSProjection.h */,
+				BF44F60CEA08045E1F980120 /* GMSServices.h */,
+				47F68FFCD5C07E9CC5CCD6AE /* GMSSyncTileLayer.h */,
+				BC999403D75F637D3F8262D9 /* GMSTileLayer.h */,
+				6D25ADABDA2D0829C77B8031 /* GMSUISettings.h */,
+				80A6F0C9F593FA6792FAF902 /* GMSURLTileLayer.h */,
+				E57871E219D09DF563254E51 /* GoogleMaps.h */,
+				CA8E643E9E67C8785F1C81D0 /* Resources */,
+				E2C8E48EA832DA97B896DF0E /* Support Files */,
+			);
+			path = "Google-Maps-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		BE8E5187849554AA9E09E9B3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EDE0B663E1775E2226DEEE3F /* AVFoundation.framework */,
+				B95561A2C604F8D6749B39FD /* CoreData.framework */,
+				FB90ABD938890D99459E6DB2 /* CoreGraphics.framework */,
+				A901D570299AFFBA22187248 /* CoreLocation.framework */,
+				5B61224D793FB369B358B0BE /* CoreText.framework */,
+				03991072B1901665E359C1B7 /* Foundation.framework */,
+				86C4D51CFAC5FCB992F1DA13 /* GLKit.framework */,
+				90651AD148A0383084EEED84 /* GoogleMaps.framework */,
+				63098F00091C0F04398B0AAA /* ImageIO.framework */,
+				0D5D52B4C9E3F515826B0EA6 /* MobileCoreServices.framework */,
+				3C3E58811ED3386AF42E08AE /* OpenGLES.framework */,
+				A8911BE2426646AEF8E13070 /* QuartzCore.framework */,
+				7EDAC5190194774BB1294618 /* Security.framework */,
+				424B0E9F6BE6F934A329DA4C /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA8E643E9E67C8785F1C81D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C893277A172ECB1116C63E3D /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CFA1EF468F305BE92A0F387A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14A40858522980EBE0897069 /* AFNetworking */,
+				AF6F6D0437C1E8702542E893 /* Google-Maps-iOS-SDK */,
+				2F830769352B2CED45477226 /* RESideMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D030C8B4103782B0B792B5FE /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				15ADD53C07956EA5D4F886CE /* AFHTTPRequestOperation.h */,
+				1E074B23D07FE3167EE0E99C /* AFHTTPRequestOperation.m */,
+				FC51CB9E85A3FA8E37C29FE7 /* AFHTTPRequestOperationManager.h */,
+				DC98066AEAB12589FC11EEC3 /* AFHTTPRequestOperationManager.m */,
+				7EF8461ECF14BF0DC9DDA41B /* AFURLConnectionOperation.h */,
+				25010E077B21DF17E2256C67 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		E2C8E48EA832DA97B896DF0E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02EAE509B863FEA7EB376ED3 /* Pods-VratislaviaGuide-Google-Maps-iOS-SDK.xcconfig */,
+				9336E2BFF2AF68729FF2FA31 /* Pods-VratislaviaGuide-Google-Maps-iOS-SDK-Private.xcconfig */,
+				643E8EFDFCCD69981D877C40 /* Pods-VratislaviaGuide-Google-Maps-iOS-SDK-dummy.m */,
+				8EBAD53F49E23D8E470AB001 /* Pods-VratislaviaGuide-Google-Maps-iOS-SDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-VratislaviaGuide-Google-Maps-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		EDE71DCC5C246FC719D6CD05 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				838CCEFE50496B746D9F435E /* Pods-VratislaviaGuide-RESideMenu.xcconfig */,
+				03C91C4D85B37A66C9205E3D /* Pods-VratislaviaGuide-RESideMenu-Private.xcconfig */,
+				08BE99FC7FAF7471C0CFC621 /* Pods-VratislaviaGuide-RESideMenu-dummy.m */,
+				28F68A6CDF362A681E5F24A9 /* Pods-VratislaviaGuide-RESideMenu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-VratislaviaGuide-RESideMenu";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39F68EF6B5066386E40FAB69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26873F710CCEDF515E7D9B2B /* AFHTTPRequestOperation.h in Headers */,
+				D78F62BAB875A55C3E2D9859 /* AFHTTPRequestOperationManager.h in Headers */,
+				11B8A635499074C4F332BE5D /* AFHTTPSessionManager.h in Headers */,
+				7BB313D2C9C99026DBC7BCE0 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				F0FCEAD89842B150A9EDE80F /* AFNetworkReachabilityManager.h in Headers */,
+				57A1ABA1492120837EF0E4BF /* AFNetworking.h in Headers */,
+				9F9875ED12B1321FAA6A51DE /* AFSecurityPolicy.h in Headers */,
+				B7F1A1652A69BE713DB36AE9 /* AFURLConnectionOperation.h in Headers */,
+				180B74865594B4F36E767BDE /* AFURLRequestSerialization.h in Headers */,
+				CD296CE68F0A5BB5D198A338 /* AFURLResponseSerialization.h in Headers */,
+				A56A0320B9CEE679A483A83A /* AFURLSessionManager.h in Headers */,
+				7870898BFEA005EC6409A567 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				0CA681B40FA23D3510F9C9EA /* UIAlertView+AFNetworking.h in Headers */,
+				D16A08DF74EDDC11EC0A8C63 /* UIButton+AFNetworking.h in Headers */,
+				B22CC885E773CACD6F0723FE /* UIImageView+AFNetworking.h in Headers */,
+				719C48A5358419052DFF0D89 /* UIKit+AFNetworking.h in Headers */,
+				429D34108A456D3F5E4825C9 /* UIProgressView+AFNetworking.h in Headers */,
+				415BC585185AF3F3531FE406 /* UIRefreshControl+AFNetworking.h in Headers */,
+				DDAEF07306E23AD4435B861C /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651F300785CDB2143F8CEE6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781BBEAA87E54379B8AE6959 /* GMSAddress.h in Headers */,
+				3D99319B5AD2D5D4F9BD2374 /* GMSCALayer.h in Headers */,
+				4922EA02615BA79C211F1A46 /* GMSCameraPosition.h in Headers */,
+				C681F2EF7BF582766102BB6D /* GMSCameraUpdate.h in Headers */,
+				9BC7595D47EF224156E0AD08 /* GMSCircle.h in Headers */,
+				C71C3711BA564585C4414F9B /* GMSCoordinateBounds.h in Headers */,
+				DB7691FC4EE6756365CC67BD /* GMSGeocoder.h in Headers */,
+				8EB9EF7EF6E8702B3E50A9F7 /* GMSGeometryUtils.h in Headers */,
+				A45C7054234E0DECF0D63D19 /* GMSGroundOverlay.h in Headers */,
+				0F15840AFA7E99FE666C9270 /* GMSIndoorBuilding.h in Headers */,
+				E3D29318EF7936FCF7106466 /* GMSIndoorDisplay.h in Headers */,
+				057CA58DA1A9285610C6A30C /* GMSIndoorLevel.h in Headers */,
+				FF66248E8722FF0F7B90DA46 /* GMSMapLayer.h in Headers */,
+				3047210060CC5BF04AA9BD64 /* GMSMapView+Animation.h in Headers */,
+				3431899177D0D225357CD271 /* GMSMapView.h in Headers */,
+				E115F3ABF4D7FEB859DD5353 /* GMSMarker.h in Headers */,
+				72B09F74F682491D7F2FAB34 /* GMSMarkerLayer.h in Headers */,
+				604A5E0A354A5EF9C8D131A1 /* GMSMutablePath.h in Headers */,
+				353EB1EC770DD930455715AC /* GMSOrientation.h in Headers */,
+				E09645F9AE87E7A79F2DC7B8 /* GMSOverlay.h in Headers */,
+				5EF282C77C5B90CCC157D421 /* GMSPanorama.h in Headers */,
+				C234C3018B7847C6BA7F88B0 /* GMSPanoramaCamera.h in Headers */,
+				713CFB9387D1AA4F0407BC93 /* GMSPanoramaCameraUpdate.h in Headers */,
+				47333D54198DEDED58186AAB /* GMSPanoramaLayer.h in Headers */,
+				55498C0BCDDF7BF3FC2DF8EF /* GMSPanoramaLink.h in Headers */,
+				716F4950D0E4EDEB6732863C /* GMSPanoramaService.h in Headers */,
+				492BC8D9352F8590E8F55F55 /* GMSPanoramaView.h in Headers */,
+				5E4D2E6E1B8F3395A8CE5D78 /* GMSPath.h in Headers */,
+				FBB182FC885C726FBA96424E /* GMSPolygon.h in Headers */,
+				27F166DAD3D2020B086C5B78 /* GMSPolyline.h in Headers */,
+				3B9FAF75893A6641DC8630C5 /* GMSProjection.h in Headers */,
+				931D71E6D03A24FF47215EF6 /* GMSServices.h in Headers */,
+				A5ED4C1507C87B64037C549E /* GMSSyncTileLayer.h in Headers */,
+				921D09C90E313E46EBCA5CD1 /* GMSTileLayer.h in Headers */,
+				041092AE521D3F39214504AD /* GMSUISettings.h in Headers */,
+				1CF3BA667BE92A6201237C2F /* GMSURLTileLayer.h in Headers */,
+				9DA51FBF308516A7E2021ABA /* GoogleMaps.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6DE462E7E36856E3E8ACA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820E68E10529452C96EC0030 /* RECommonFunctions.h in Headers */,
+				B8707888B6C09E08AA527863 /* RESideMenu.h in Headers */,
+				711A4B3DE61EC4D1298817EE /* UIViewController+RESideMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		52EB3ADD7863AE8F7E491484 /* Pods-VratislaviaGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AAB32146A477EB7043C5EEF /* Build configuration list for PBXNativeTarget "Pods-VratislaviaGuide" */;
+			buildPhases = (
+				15D5958E38ACB09A89A42305 /* Sources */,
+				FEB8F2F64BDB8415F704B46C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E845A7ACECB3F11FDE30C1B /* PBXTargetDependency */,
+				58549494808E9C6340443947 /* PBXTargetDependency */,
+				F8A3422CC75302B5A67A7B1B /* PBXTargetDependency */,
+			);
+			name = "Pods-VratislaviaGuide";
+			productName = "Pods-VratislaviaGuide";
+			productReference = 25079C754E663FE1EEDD8D0F /* libPods-VratislaviaGuide.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		876BA1B0C5E30F7C1E7805D7 /* Pods-VratislaviaGuide-Google-Maps-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC77561A0A2E868D39065BC /* Build configuration list for PBXNativeTarget "Pods-VratislaviaGuide-Google-Maps-iOS-SDK" */;
+			buildPhases = (
+				1BFE4BD4DE91EA181BBD5EAC /* Sources */,
+				6BEA47507F9351C5F73C1CC7 /* Frameworks */,
+				651F300785CDB2143F8CEE6F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VratislaviaGuide-Google-Maps-iOS-SDK";
+			productName = "Pods-VratislaviaGuide-Google-Maps-iOS-SDK";
+			productReference = 6C85D88BC39D8381B57A3400 /* libPods-VratislaviaGuide-Google-Maps-iOS-SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C6C100F82DE51ABFFA25706C /* Pods-VratislaviaGuide-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585058117EE56DBE071ECB92 /* Build configuration list for PBXNativeTarget "Pods-VratislaviaGuide-AFNetworking" */;
+			buildPhases = (
+				8198D45E7747CBFBF69B9D76 /* Sources */,
+				0868A4985337EF1E7B4F94BB /* Frameworks */,
+				39F68EF6B5066386E40FAB69 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VratislaviaGuide-AFNetworking";
+			productName = "Pods-VratislaviaGuide-AFNetworking";
+			productReference = 93A05416DF2C49746AF2350B /* libPods-VratislaviaGuide-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E30F00BACA192BC73D140A1A /* Pods-VratislaviaGuide-RESideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471FFAA00AEC6BE06E02BCA4 /* Build configuration list for PBXNativeTarget "Pods-VratislaviaGuide-RESideMenu" */;
+			buildPhases = (
+				25673780352B951608B0A14D /* Sources */,
+				983E447966075D0EF2AA87C6 /* Frameworks */,
+				AC6DE462E7E36856E3E8ACA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VratislaviaGuide-RESideMenu";
+			productName = "Pods-VratislaviaGuide-RESideMenu";
+			productReference = A284473FE05A641F895B812F /* libPods-VratislaviaGuide-RESideMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0F08A468FED05D6C9D886B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 775CA11E1E685D19518AC968 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A640F1A54FB9C507942F9CF6;
+			productRefGroup = 1006D007F57CA0CAE2EF2852 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52EB3ADD7863AE8F7E491484 /* Pods-VratislaviaGuide */,
+				C6C100F82DE51ABFFA25706C /* Pods-VratislaviaGuide-AFNetworking */,
+				876BA1B0C5E30F7C1E7805D7 /* Pods-VratislaviaGuide-Google-Maps-iOS-SDK */,
+				E30F00BACA192BC73D140A1A /* Pods-VratislaviaGuide-RESideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15D5958E38ACB09A89A42305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB25D1D235F7463924758A7A /* Pods-VratislaviaGuide-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BFE4BD4DE91EA181BBD5EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE00192E85DAF30DDCEDAE3 /* Pods-VratislaviaGuide-Google-Maps-iOS-SDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25673780352B951608B0A14D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E46BEB8562559674BA56F5F /* Pods-VratislaviaGuide-RESideMenu-dummy.m in Sources */,
+				4ADFE53D298CD393D84AA59E /* RECommonFunctions.m in Sources */,
+				8F9CAD4E172AD22999D66BB0 /* RESideMenu.m in Sources */,
+				D60776B2E9244D6EFCF5462C /* UIViewController+RESideMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8198D45E7747CBFBF69B9D76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EFA1AC2D89711C2495DAD7 /* AFHTTPRequestOperation.m in Sources */,
+				3522D009ABD23DC1035B954A /* AFHTTPRequestOperationManager.m in Sources */,
+				0D6142705D254227EF30732C /* AFHTTPSessionManager.m in Sources */,
+				0D744BE4AAB4DE4153E1F2A3 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				6CA38242120B69E0F0D34E70 /* AFNetworkReachabilityManager.m in Sources */,
+				DD7F04C8416D53CB49A30E5A /* AFSecurityPolicy.m in Sources */,
+				2ECD9979ADEB69400EFDBE57 /* AFURLConnectionOperation.m in Sources */,
+				37FCEA4819514CFA49E3CB3F /* AFURLRequestSerialization.m in Sources */,
+				29924B6DEFD48E395EB71168 /* AFURLResponseSerialization.m in Sources */,
+				A890AE9001CF20C139DBBC7C /* AFURLSessionManager.m in Sources */,
+				4D0FA61D52DEF44346C3F0E5 /* Pods-VratislaviaGuide-AFNetworking-dummy.m in Sources */,
+				9EB979B3FEC8D5356AB9AA37 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				B50BD8C23C219FA5D8BB35F9 /* UIAlertView+AFNetworking.m in Sources */,
+				197F0DAABD681121E52EB77C /* UIButton+AFNetworking.m in Sources */,
+				7D93CABF688C7A439E56514B /* UIImageView+AFNetworking.m in Sources */,
+				714335B7B436DD5603F44E88 /* UIProgressView+AFNetworking.m in Sources */,
+				6CB3293D2B0CA3DA3A06AB94 /* UIRefreshControl+AFNetworking.m in Sources */,
+				4E8A4DB6BD8166BAE8987749 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E845A7ACECB3F11FDE30C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VratislaviaGuide-AFNetworking";
+			target = C6C100F82DE51ABFFA25706C /* Pods-VratislaviaGuide-AFNetworking */;
+			targetProxy = 577E5108A3D05B5530D05E3E /* PBXContainerItemProxy */;
+		};
+		58549494808E9C6340443947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VratislaviaGuide-Google-Maps-iOS-SDK";
+			target = 876BA1B0C5E30F7C1E7805D7 /* Pods-VratislaviaGuide-Google-Maps-iOS-SDK */;
+			targetProxy = 9F4E5BA2D05DF18A7483300F /* PBXContainerItemProxy */;
+		};
+		F8A3422CC75302B5A67A7B1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VratislaviaGuide-RESideMenu";
+			target = E30F00BACA192BC73D140A1A /* Pods-VratislaviaGuide-RESideMenu */;
+			targetProxy = 0A4DC67B6CD0A9CA6733DC40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EDA665223A1C54E472BE6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C91C4D85B37A66C9205E3D /* Pods-VratislaviaGuide-RESideMenu-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VratislaviaGuide-RESideMenu/Pods-VratislaviaGuide-RESideMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1F5F04765685AB5D74723998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B5EF9256321E00F4B7C83A3 /* Pods-VratislaviaGuide.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2A6C9CC2AEECF1A8A17D4D57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A016E9CA5C558EC5697E72E /* Pods-VratislaviaGuide-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VratislaviaGuide-AFNetworking/Pods-VratislaviaGuide-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3B689766717D6548601B76DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E03FD948493D3253207ABD5 /* Pods-VratislaviaGuide.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4E9DE4AE13BF982BF19294D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9336E2BFF2AF68729FF2FA31 /* Pods-VratislaviaGuide-Google-Maps-iOS-SDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VratislaviaGuide-Google-Maps-iOS-SDK/Pods-VratislaviaGuide-Google-Maps-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		60E74CF78A0A78CDD98C7A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8CE86D60F54A309EB8D3C7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EE59CCB000E77081FD59C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9336E2BFF2AF68729FF2FA31 /* Pods-VratislaviaGuide-Google-Maps-iOS-SDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VratislaviaGuide-Google-Maps-iOS-SDK/Pods-VratislaviaGuide-Google-Maps-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B10030C9ED2B80BA5D28E46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C91C4D85B37A66C9205E3D /* Pods-VratislaviaGuide-RESideMenu-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VratislaviaGuide-RESideMenu/Pods-VratislaviaGuide-RESideMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E35A389C64AC9225E8F28C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A016E9CA5C558EC5697E72E /* Pods-VratislaviaGuide-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VratislaviaGuide-AFNetworking/Pods-VratislaviaGuide-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		471FFAA00AEC6BE06E02BCA4 /* Build configuration list for PBXNativeTarget "Pods-VratislaviaGuide-RESideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10030C9ED2B80BA5D28E46A /* Debug */,
+				1EDA665223A1C54E472BE6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC77561A0A2E868D39065BC /* Build configuration list for PBXNativeTarget "Pods-VratislaviaGuide-Google-Maps-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E9DE4AE13BF982BF19294D2 /* Debug */,
+				9EE59CCB000E77081FD59C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585058117EE56DBE071ECB92 /* Build configuration list for PBXNativeTarget "Pods-VratislaviaGuide-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A6C9CC2AEECF1A8A17D4D57 /* Debug */,
+				E35A389C64AC9225E8F28C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775CA11E1E685D19518AC968 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E74CF78A0A78CDD98C7A9C /* Debug */,
+				8CE86D60F54A309EB8D3C7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AAB32146A477EB7043C5EEF /* Build configuration list for PBXNativeTarget "Pods-VratislaviaGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F5F04765685AB5D74723998 /* Debug */,
+				3B689766717D6548601B76DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0F08A468FED05D6C9D886B5 /* Project object */;
+}

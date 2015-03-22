@@ -1,0 +1,36 @@
+PODS:
+  - AFNetworking (2.5.1):
+    - AFNetworking/NSURLConnection (= 2.5.1)
+    - AFNetworking/NSURLSession (= 2.5.1)
+    - AFNetworking/Reachability (= 2.5.1)
+    - AFNetworking/Security (= 2.5.1)
+    - AFNetworking/Serialization (= 2.5.1)
+    - AFNetworking/UIKit (= 2.5.1)
+  - AFNetworking/NSURLConnection (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.1)
+  - AFNetworking/Security (2.5.1)
+  - AFNetworking/Serialization (2.5.1)
+  - AFNetworking/UIKit (2.5.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Google-Maps-iOS-SDK (1.9.0)
+  - RESideMenu (4.0.7)
+
+DEPENDENCIES:
+  - AFNetworking (= 2.5.1)
+  - Google-Maps-iOS-SDK (= 1.9)
+  - RESideMenu (= 4.0.7)
+
+SPEC CHECKSUMS:
+  AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
+  Google-Maps-iOS-SDK: d176593f33f931a500474a46c2a3c3d6d4b187cd
+  RESideMenu: a9c1cd2e64e60e1d3166ddac01a83e215a0e4d30
+
+COCOAPODS: 0.36.0
