@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430E34271ABF520200400C0D /* WWSideMenuNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430E34261ABF520200400C0D /* WWSideMenuNavigationController.m */; };
+		430E342D1ABF52A700400C0D /* WWLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430E342C1ABF52A700400C0D /* WWLeftMenuViewController.m */; };
+		430E34301ABF52F500400C0D /* WWRightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430E342F1ABF52F500400C0D /* WWRightMenuViewController.m */; };
+		430E34331ABF535F00400C0D /* WWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430E34321ABF535F00400C0D /* WWHomeViewController.m */; };
 		436C60CD1ABF349A000262BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C60CC1ABF349A000262BE /* main.m */; };
 		436C60D01ABF349A000262BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C60CF1ABF349A000262BE /* AppDelegate.m */; };
 		436C60D31ABF349A000262BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C60D21ABF349A000262BE /* ViewController.m */; };
@@ -29,6 +33,14 @@
 
 /* Begin PBXFileReference section */
 		3081534F2B3CFE4465A0E2D8 /* Pods-VratislaviaGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VratislaviaGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VratislaviaGuide/Pods-VratislaviaGuide.debug.xcconfig"; sourceTree = "<group>"; };
+		430E34251ABF520200400C0D /* WWSideMenuNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWSideMenuNavigationController.h; sourceTree = "<group>"; };
+		430E34261ABF520200400C0D /* WWSideMenuNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWSideMenuNavigationController.m; sourceTree = "<group>"; };
+		430E342B1ABF52A700400C0D /* WWLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWLeftMenuViewController.h; sourceTree = "<group>"; };
+		430E342C1ABF52A700400C0D /* WWLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWLeftMenuViewController.m; sourceTree = "<group>"; };
+		430E342E1ABF52F500400C0D /* WWRightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWRightMenuViewController.h; sourceTree = "<group>"; };
+		430E342F1ABF52F500400C0D /* WWRightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWRightMenuViewController.m; sourceTree = "<group>"; };
+		430E34311ABF535F00400C0D /* WWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWHomeViewController.h; sourceTree = "<group>"; };
+		430E34321ABF535F00400C0D /* WWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWHomeViewController.m; sourceTree = "<group>"; };
 		436C60C71ABF349A000262BE /* VratislaviaGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VratislaviaGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436C60CB1ABF349A000262BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436C60CC1ABF349A000262BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,6 +116,14 @@
 				436C60D71ABF349A000262BE /* Images.xcassets */,
 				436C60D91ABF349A000262BE /* LaunchScreen.xib */,
 				436C60CA1ABF349A000262BE /* Supporting Files */,
+				430E342E1ABF52F500400C0D /* WWRightMenuViewController.h */,
+				430E342F1ABF52F500400C0D /* WWRightMenuViewController.m */,
+				430E34251ABF520200400C0D /* WWSideMenuNavigationController.h */,
+				430E34261ABF520200400C0D /* WWSideMenuNavigationController.m */,
+				430E342B1ABF52A700400C0D /* WWLeftMenuViewController.h */,
+				430E342C1ABF52A700400C0D /* WWLeftMenuViewController.m */,
+				430E34311ABF535F00400C0D /* WWHomeViewController.h */,
+				430E34321ABF535F00400C0D /* WWHomeViewController.m */,
 			);
 			path = VratislaviaGuide;
 			sourceTree = "<group>";
@@ -189,6 +209,7 @@
 		436C60BF1ABF349A000262BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WW;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Waldemar Walczak";
 				TargetAttributes = {
@@ -278,8 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430E34301ABF52F500400C0D /* WWRightMenuViewController.m in Sources */,
+				430E34331ABF535F00400C0D /* WWHomeViewController.m in Sources */,
 				436C60D31ABF349A000262BE /* ViewController.m in Sources */,
 				436C60D01ABF349A000262BE /* AppDelegate.m in Sources */,
+				430E342D1ABF52A700400C0D /* WWLeftMenuViewController.m in Sources */,
+				430E34271ABF520200400C0D /* WWSideMenuNavigationController.m in Sources */,
 				436C60CD1ABF349A000262BE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

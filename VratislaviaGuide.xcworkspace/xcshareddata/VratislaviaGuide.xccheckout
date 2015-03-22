@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>04BEC63C-7523-49B1-B19E-C1DE0A53D6D7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VratislaviaGuide</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FC11CCDEE0343DE19CFF3B4E4BF487874A9653C9</key>
+		<string>github.com:VladimirIgorSmirnoff/VratislaviaGuide.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VratislaviaGuide.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FC11CCDEE0343DE19CFF3B4E4BF487874A9653C9</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:VladimirIgorSmirnoff/VratislaviaGuide.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FC11CCDEE0343DE19CFF3B4E4BF487874A9653C9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FC11CCDEE0343DE19CFF3B4E4BF487874A9653C9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VratislaviaGuide</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import <RESideMenu/RESideMenu.h>
+
+#import "WWSideMenuNavigationController.h"
+#import "WWLeftMenuViewController.h"
+#import "WWRightMenuViewController.h"
+#import "WWHomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +23,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // Create content and menu controllers
+    //
+    WWSideMenuNavigationController *navigationController = [[WWSideMenuNavigationController alloc] initWithRootViewController:[[WWHomeViewController alloc] init]];
+    WWLeftMenuViewController *leftMenuViewController = [[WWLeftMenuViewController alloc] init];
+    WWRightMenuViewController *rightMenuViewController = [[WWRightMenuViewController alloc] init];
+    
+    // Create side menu controller
+    //
+    RESideMenu *sideMenuViewController = [[RESideMenu alloc] initWithContentViewController:navigationController
+                                                                    leftMenuViewController:leftMenuViewController
+                                                                   rightMenuViewController:rightMenuViewController];
+    // Make it a root controller
+    //
+    self.window.rootViewController = sideMenuViewController;
+    
     return YES;
 }
 
